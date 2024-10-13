@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import Link from "next/link";
 const Skills = () => {
   return (
     <>
@@ -81,7 +81,7 @@ const Skills = () => {
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;

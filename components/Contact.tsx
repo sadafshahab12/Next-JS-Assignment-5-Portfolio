@@ -118,7 +118,6 @@ const Contact = () => {
                   height={25}
                   className="text-orange-500"
                 />
-
                 <p className="text-gray-700">
                   Phone: <span className="text-orange-600">+923402195735</span>
                 </p>

@@ -5,7 +5,6 @@ const About = () => {
     <>
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-10">
-    
           <div className="flex flex-col md:flex-row items-center md:space-x-10">
             <div className="md:w-1/2 mb-10 md:mb-0 relative">
               <h2 className="text-3xl md:text-4xl font-extrabold mb-8 md:text-left text-center md:hidden block">

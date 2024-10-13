@@ -4,9 +4,8 @@ import Link from "next/link";
 const About = () => {
   return (
     <>
-   <section className="py-20 bg-white">
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-10">
-    
           <div className="flex flex-col md:flex-row items-center md:space-x-10">
             <div className="md:w-1/2 mb-10 md:mb-0 relative">
               <h2 className="text-3xl md:text-4xl font-extrabold mb-8 md:text-left text-center md:hidden block">
@@ -45,7 +44,9 @@ const About = () => {
       </section>
       <section className="py-20 bg-slate-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-10 text-center">
-          <h3 className="text-2xl font-bold mb-4 text-white">Why You Should Hire Me!</h3>
+          <h3 className="text-2xl font-bold mb-4 text-white">
+            Why You Should Hire Me!
+          </h3>
           <p className="text-gray-100 mb-6">
             I am committed to delivering high-quality work and exceeding client
             expectations. My strong problem-solving skills and attention to
@@ -120,9 +121,6 @@ const About = () => {
           </div>
         </div>
       </section>
-
- 
-  
     </>
   );
 };
