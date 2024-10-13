@@ -1,7 +1,14 @@
+"use client"
 import { AlignJustify } from "lucide-react";
 import Link from "next/link";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [toggle, setToggle] = useState(false);
+
+  const handleMenu = () => {
+    setToggle((prev) => !prev); 
+  };
   return (
     <>
       <nav className="bg-white shadow">
@@ -56,16 +63,13 @@ const Navbar = () => {
                 Contact
               </Link>
             </div>
-            <div
-              className="-mr-2 flex md:hidden cursor-pointer"
-              onClick={handleMenu}
-            >
+            <div className="-mr-2 flex md:hidden cursor-pointer " onClick={handleMenu}>
               <AlignJustify />
             </div>
           </div>
         </div>
 
-        <div id="mobile-menu" className="hidden">
+        {toggle && (<div id="mobile-menu" className="md:hidden block">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col justify-center items-center w-full mx-auto">
             <Link
               href="/"
@@ -74,37 +78,43 @@ const Navbar = () => {
               Home
             </Link>
             <Link
-              href="/"
+              href="/about"
               className="text-gray-600 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium"
             >
               About
             </Link>
             <Link
-              href="/"
+              href="/blog"
+              className="text-gray-600 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium"
+            >
+              Blog
+            </Link>
+            <Link
+              href="/services"
               className="text-gray-600 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium"
             >
               Services
             </Link>
             <Link
-              href="/"
+              href="/portfolio"
               className="text-gray-600 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium"
             >
               Portfolio
             </Link>
             <Link
-              href="/"
+              href="/testimonial"
               className="text-gray-600 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium"
             >
               Testimonial
             </Link>
             <Link
-              href="/"
+              href="/contact"
               className="block text-base bg-orange-500 hover:bg-orange-400 text-white py-2 px-4 rounded-lg font-bold "
             >
               Contact
             </Link>
           </div>
-        </div>
+        </div>)}
       </nav>
     </>
   );
