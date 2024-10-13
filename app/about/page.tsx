@@ -24,18 +24,18 @@ const About = () => {
                 About Me
               </h2>
               <p className="text-gray-700 mb-6 md:text-left text-justify">
-                Welcome to My Portfolio! I am a Bachelor of Commerce graduate and
-                an enthusiastic online tutor with a passion for technology. As a
-                front-end developer, I specialize in <strong>React.js</strong>{" "}
-                and <strong>Tailwind CSS</strong>, crafting intuitive and
-                visually appealing web applications. Currently, I am expanding
-                my skill set by pursuing certifications in{" "}
-                <strong>Cloud Applied Generative AI</strong> and{" "}
-                <strong>Web & Mobile App Development</strong>.
+                Welcome to My Portfolio! I am a Bachelor of Commerce graduate
+                and an enthusiastic online tutor with a passion for technology.
+                As a front-end developer, I specialize in{" "}
+                <strong>React.js</strong> and <strong>Tailwind CSS</strong>,
+                crafting intuitive and visually appealing web applications.
+                Currently, I am expanding my skill set by pursuing
+                certifications in <strong>Cloud Applied Generative AI</strong>{" "}
+                and <strong>Web & Mobile App Development</strong>.
               </p>
               <p className="mb-6 text-justify bg-orange-500 text-white font-bold p-3 rounded-lg shadow-md md:text-left">
                 Explore my work, which reflects my commitment to seamless user
-                experiences and innovative solutions. Let connect and discuss
+                experiences and innovative solutions. Lets connect and discuss
                 how I can help bring your ideas to life!
               </p>
             </div>
@@ -50,7 +50,7 @@ const About = () => {
           <p className="text-gray-100 mb-6">
             I am committed to delivering high-quality work and exceeding client
             expectations. My strong problem-solving skills and attention to
-            detail ensure that your project will be in capable hands. Let's work
+            detail ensure that your project will be in capable hands. Lets work
             together to turn your vision into reality!
           </p>
 
