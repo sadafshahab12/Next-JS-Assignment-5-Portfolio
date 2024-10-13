@@ -15,6 +15,8 @@ const TestimoCard = (props: TypeTestiCard) => {
           src={props.src}
           alt="Client Image"
           className="w-full h-full rounded-full object-cover"
+          width={400}
+          height={400}
         />
       </div>
       <p className="text-gray-700 text-center mb-4">{props.p1}</p>
