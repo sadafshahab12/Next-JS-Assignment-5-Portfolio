@@ -12,7 +12,7 @@ import {
 const Footer = () => {
   return (
     <>
-      <footer className="bg-gray-800 text-white py-10">
+      <footer className="bg-gray-800 text-white pt-10">
         <div className="container mx-auto flex flex-col md:flex-row items-center md:justify-between px-14 space-y-6 md:space-y-0 md:space-x-10">
           <div className="text-center md:text-left">
             <h2 className="text-lg font-semibold pb-2">Sadaf Shahab</h2>
@@ -41,32 +41,50 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="hover:text-gray-300 hover:underline">
+                <Link
+                  href="/about"
+                  className="hover:text-gray-300 hover:underline"
+                >
                   About
                 </Link>
               </li>
               <li>
-                <Link href="/blog" className="hover:text-gray-300 hover:underline">
+                <Link
+                  href="/blog"
+                  className="hover:text-gray-300 hover:underline"
+                >
                   Blog
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="hover:text-gray-300 hover:underline">
+                <Link
+                  href="/services"
+                  className="hover:text-gray-300 hover:underline"
+                >
                   Services
                 </Link>
               </li>
               <li>
-                <Link href="/portfolio" className="hover:text-gray-300 hover:underline">
+                <Link
+                  href="/portfolio"
+                  className="hover:text-gray-300 hover:underline"
+                >
                   Portfolio
                 </Link>
               </li>
               <li>
-                <Link href="/testimonial" className="hover:text-gray-300 hover:underline">
+                <Link
+                  href="/testimonial"
+                  className="hover:text-gray-300 hover:underline"
+                >
                   Testimonial
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-gray-300 hover:underline">
+                <Link
+                  href="/contact"
+                  className="hover:text-gray-300 hover:underline"
+                >
                   Contact
                 </Link>
               </li>
@@ -118,13 +136,12 @@ const Footer = () => {
             </Link>
           </div>
         </div>
+        <div className="bg-orange-300 h-20 mt-10 flex justify-center items-center text-center">
+          <p className="text-gray-900 text-sm md:text-base lg:text-lg">
+            © 2024 Sadaf Shahab. All rights reserved.
+          </p>
+        </div>
       </footer>
-      <div className="bg-orange-300 h-20 pb-4 flex justify-center items-center text-center">
-  <p className="text-gray-900 text-sm md:text-base lg:text-lg">
-    © 2024 Sadaf Shahab. All rights reserved.
-  </p>
-</div>
-
     </>
   );
 };
