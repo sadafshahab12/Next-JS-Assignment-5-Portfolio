@@ -9,7 +9,7 @@ const Skills = () => {
           <p className="text-gray-700 mb-6">
             I am committed to delivering high-quality work and exceeding client
             expectations. My strong problem-solving skills and attention to
-            detail ensure that your project will be in capable hands. Let's work
+            detail ensure that your project will be in capable hands. Lets work
             together to turn your vision into reality!
           </p>
 

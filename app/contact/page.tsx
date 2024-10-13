@@ -91,7 +91,7 @@ const Contact = () => {
                   className="text-orange-500"
                 />
                 <p className="text-gray-700">
-                  I'm available for freelance work and collaborations.
+                  I am available for freelance work and collaborations.
                 </p>
               </div>
               <div className="flex items-center mb-4 gap-3">

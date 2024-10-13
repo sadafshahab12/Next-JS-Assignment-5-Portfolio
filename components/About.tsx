@@ -23,18 +23,18 @@ const About = () => {
                 About Me
               </h2>
               <p className="text-gray-700 mb-6 md:text-left text-justify">
-                Welcome to My Portfolio! I'm a Bachelor of Commerce graduate and
-                an enthusiastic online tutor with a passion for technology. As a
-                front-end developer, I specialize in <strong>React.js</strong>{" "}
-                and <strong>Tailwind CSS</strong>, crafting intuitive and
-                visually appealing web applications. Currently, I am expanding
-                my skill set by pursuing certifications in{" "}
-                <strong>Cloud Applied Generative AI</strong> and{" "}
-                <strong>Web & Mobile App Development</strong>.
+                Welcome to My Portfolio! I am a Bachelor of Commerce graduate
+                and an enthusiastic online tutor with a passion for technology.
+                As a front-end developer, I specialize in{" "}
+                <strong>React.js</strong> and <strong>Tailwind CSS</strong>,
+                crafting intuitive and visually appealing web applications.
+                Currently, I am expanding my skill set by pursuing
+                certifications in <strong>Cloud Applied Generative AI</strong>{" "}
+                and <strong>Web & Mobile App Development</strong>.
               </p>
               <p className="mb-6 text-justify bg-orange-500 text-white font-bold p-3 rounded-lg shadow-md md:text-left">
                 Explore my work, which reflects my commitment to seamless user
-                experiences and innovative solutions. Let’s connect and discuss
+                experiences and innovative solutions. Lets connect and discuss
                 how I can help bring your ideas to life!
               </p>
             </div>

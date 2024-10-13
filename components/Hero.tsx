@@ -27,7 +27,7 @@ const Hero = () => {
               href="#portfolio"
               className="bg-orange-500 hover:bg-orange-400 text-white font-semibold py-2 px-4 rounded-lg transition duration-300 sm:text-lg text-[0.7rem]"
             >
-              Let's create something amazing together!
+              Lets create something amazing together!
             </a>
           </div>
 
