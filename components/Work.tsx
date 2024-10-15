@@ -44,7 +44,7 @@ const Work = () => {
           </p>
           <Link
             href="https://github.com/sadafshahab12"
-            className="mt-4 bg-white text-orange-600 py-2 px-4 rounded hover:bg-gray-200 transition flex justify-center items-center gap-2 w-64 mx-auto"
+            className="mt-4 bg-white text-orange-600 py-2 px-4 rounded hover:bg-gray-200 transition flex justify-center items-center gap-2 md:w-64 w-25  mx-auto"
           >
             <FontAwesomeIcon icon={faGithub} width={25} height={25} />
             Visit GitHub
