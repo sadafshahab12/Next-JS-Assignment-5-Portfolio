@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { AlignJustify } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
@@ -7,7 +7,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   const handleMenu = () => {
-    setToggle((prev) => !prev); 
+    setToggle((prev) => !prev);
   };
   return (
     <>
@@ -63,58 +63,63 @@ const Navbar = () => {
                 Contact
               </Link>
             </div>
-            <div className="-mr-2 flex md:hidden cursor-pointer " onClick={handleMenu}>
+            <div
+              className="-mr-2 flex md:hidden cursor-pointer "
+              onClick={handleMenu}
+            >
               <AlignJustify />
             </div>
           </div>
         </div>
 
-        {toggle && (<div id="mobile-menu" className="md:hidden block">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col justify-center items-center w-full mx-auto">
-            <Link
-              href="/"
-              className="text-gray-600 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium"
-            >
-              Home
-            </Link>
-            <Link
-              href="/about"
-              className="text-gray-600 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium"
-            >
-              About
-            </Link>
-            <Link
-              href="/blog"
-              className="text-gray-600 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium"
-            >
-              Blog
-            </Link>
-            <Link
-              href="/services"
-              className="text-gray-600 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium"
-            >
-              Services
-            </Link>
-            <Link
-              href="/portfolio"
-              className="text-gray-600 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium"
-            >
-              Portfolio
-            </Link>
-            <Link
-              href="/testimonial"
-              className="text-gray-600 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium"
-            >
-              Testimonial
-            </Link>
-            <Link
-              href="/contact"
-              className="block text-base bg-orange-500 hover:bg-orange-400 text-white py-2 px-4 rounded-lg font-bold "
-            >
-              Contact
-            </Link>
+        {toggle && (
+          <div id="mobile-menu" className="md:hidden block">
+            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col justify-center items-center w-full mx-auto">
+              <Link
+                href="/"
+                className="text-gray-600 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium"
+              >
+                Home
+              </Link>
+              <Link
+                href="/about"
+                className="text-gray-600 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium"
+              >
+                About
+              </Link>
+              <Link
+                href="/blog"
+                className="text-gray-600 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium"
+              >
+                Blog
+              </Link>
+              <Link
+                href="/services"
+                className="text-gray-600 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium"
+              >
+                Services
+              </Link>
+              <Link
+                href="/portfolio"
+                className="text-gray-600 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium"
+              >
+                Portfolio
+              </Link>
+              <Link
+                href="/testimonial"
+                className="text-gray-600 hover:bg-gray-200 block px-3 py-2 rounded-md text-base font-medium"
+              >
+                Testimonial
+              </Link>
+              <Link
+                href="/contact"
+                className="block text-base bg-orange-500 hover:bg-orange-400 text-white py-2 px-4 rounded-lg font-bold "
+              >
+                Contact
+              </Link>
+            </div>
           </div>
-        </div>)}
+        )}
       </nav>
     </>
   );

@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUsers } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
-import TestimoCard from "@/components/TestimoCard";
+import TestimoCard from "../components/TestimoCard";
 
 const Testimonial = () => {
   return (
